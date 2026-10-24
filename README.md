@@ -80,6 +80,8 @@ Configured the Security Group inbound rules to allow HTTP and SSH traffic.
 
 HTTP traffic allows users to access the hosted website through a web browser.
 
+<img width="1912" height="867" alt="Image" src="https://github.com/user-attachments/assets/a2164085-9306-4569-a1d8-03b0a7c8eab2" />
+
 ### Step 3: Connect to EC2 Instance
 
 Connected to the Ubuntu EC2 instance using AWS EC2 Instance Connect.
