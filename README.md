@@ -88,6 +88,8 @@ Connected to the Ubuntu EC2 instance using AWS EC2 Instance Connect.
 
 After establishing the connection, accessed the Linux terminal to perform server configuration.
 
+<img width="1907" height="818" alt="Image" src="https://github.com/user-attachments/assets/021cf1f7-6fde-42eb-90be-55b2101eda11" />
+
 ### Step 4: Install Apache2 Web Server
 
 Updated the Ubuntu package repository:
