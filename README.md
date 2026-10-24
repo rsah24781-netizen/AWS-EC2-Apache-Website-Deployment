@@ -182,6 +182,8 @@ http://<EC2-PUBLIC-IP>
 
 **Result:** The website was successfully accessible through the EC2 public IPv4 address.
 
+<img width="1917" height="1078" alt="Image" src="https://github.com/user-attachments/assets/87500ed8-5d6b-4393-a81f-9650042dd7a5" />
+
 ## Common Troubleshooting
 
 | Issue | Possible Solution |
