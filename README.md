@@ -67,6 +67,9 @@ Zay eCommerce Website
 6. Configured the SSH key pair `xyz-key-ec2.pem`.
 7. Launched the EC2 instance.
 
+   <img width="1900" height="877" alt="Image" src="https://github.com/user-attachments/assets/afc70d65-2fd7-41e5-80cd-2437252f1614" />
+<img width="1917" height="1078" alt="Image" src="https://github.com/user-attachments/assets/87500ed8-5d6b-4393-a81f-9650042dd7a5" />
+
 ### Step 2: Configure Security Group
 
 Configured the Security Group inbound rules to allow HTTP and SSH traffic.
