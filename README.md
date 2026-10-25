@@ -88,7 +88,7 @@ Connected to the Ubuntu EC2 instance using AWS EC2 Instance Connect.
 
 After establishing the connection, accessed the Linux terminal to perform server configuration.
 
-<img width="1907" height="818" alt="Image" src="https://github.com/user-attachments/assets/021cf1f7-6fde-42eb-90be-55b2101eda11" />
+<img width="1887" height="826" alt="Image" src="https://github.com/user-attachments/assets/4d0b28ca-8b3a-4a56-9a88-1764a3606224" />
 
 ### Step 4: Install Apache2 Web Server
 
@@ -109,6 +109,7 @@ Verified Apache installation:
 ```bash
 sudo systemctl status apache2
 ```
+<img width="1907" height="815" alt="Image" src="https://github.com/user-attachments/assets/4806d090-cbad-43a3-a71a-958aada7f922" />
 
 **Result:** Apache2 Web Server was successfully installed.
 
@@ -123,6 +124,8 @@ scp -i xyz-key-ec2.pem "website.zip" ubuntu@<PUBLIC-IP>:/home/ubuntu/
 ```
 
 SCP provides secure file transfer between the local machine and the remote EC2 server.
+
+<img width="1470" height="767" alt="Image" src="https://github.com/user-attachments/assets/6eab8114-ffb3-4604-9167-6b033f3522aa" />
 
 ### Step 6: Extract Website Files
 
@@ -143,7 +146,9 @@ Verified the extracted project files:
 ```bash
 ls -la
 ```
+<img width="1387" height="297" alt="Image" src="https://github.com/user-attachments/assets/dd8b7cfb-353b-49db-a40e-56ec7c68034e" />
 
+<img width="1020" height="286" alt="Image" src="https://github.com/user-attachments/assets/54a2e5b1-82b3-446b-b2eb-3ce9215fa4cc" />
 **Result:** The website files were extracted on the Ubuntu EC2 instance.
 
 ### Step 7: Deploy Website Using Apache
@@ -167,6 +172,7 @@ Example command when running inside the extracted website folder:
 ```bash
 sudo cp -r . /var/www/html/
 ```
+<img width="1886" height="598" alt="Image" src="https://github.com/user-attachments/assets/da5d1ea5-74a6-4035-9e22-82a4c30e3a4a" />
 
 **Explanation:**
 
